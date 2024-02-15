@@ -42,7 +42,7 @@ function createMap(earthquakeData) {
     }
   }
   
-  // Get earthquake data from USGS
+  // Get earthquake data 
   fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson')
     .then(function (response) {
       return response.json();
